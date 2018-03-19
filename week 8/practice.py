@@ -18,3 +18,4 @@ def palindrome(s):
 
 print(palindrome('radar'))
 print(palindrome('10000011'))
+#3
