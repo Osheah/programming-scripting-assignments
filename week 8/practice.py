@@ -16,6 +16,11 @@ def palindrome(s):
       ans = False
   return ans
 
-print(palindrome('radar'))
-print(palindrome('10000011'))
+'''print(palindrome('radar'))
+print(palindrome('10000011'))'''
 #3
+def simpleinterest(p,t,r):
+  ans=p+p*t*(r/100)
+  return ans
+print(simpleinterest(1000,3,5))
+print(simpleinterest(1000,7,10))  
