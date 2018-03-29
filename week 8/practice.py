@@ -55,12 +55,16 @@ def etondecs(n):
 print(etondecs(6))'''
 #8
 def caesar(s, n):
-  alpha=[a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z]
-  for i in range(len(alpha)):
-    s[i]=s[i+n]
-  return s
-print(caesar('abcd', 3))  
-print(caesar('Hello, World!', 2)) # not done
+alpha=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']#simplify it first by using lower case
+for i in s: 
+  range(len[i] = range(len[i]+n%26)
+print(alpha)
+
+#return s
+ 
+characters only
+#print(caesar('abcd', 3))  
+#print(caesar('Hello, World!', 2)) # not done
 '''
 #9
 def sortlist(l):
